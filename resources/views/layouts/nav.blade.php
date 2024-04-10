@@ -7,7 +7,7 @@
             </div>
             <!-- Menu items -->
             <div class="hidden md:flex space-x-4">
-                <a href="#" class="text-black hover:text-cyan-700">Lo Nuevo</a>
+                <a href="{{ route('pages.home') }} class="text-black hover:text-cyan-700">Lo Nuevo</a>
                 <a href="#" class="text-black hover:text-cyan-700">Colecciones</a>
                 <a href="#" class="text-black hover:text-cyan-700">Accesorios</a>
                 <a href="#" class="text-cyan-700 hover:text-cyan-500">Rebajas</a>
