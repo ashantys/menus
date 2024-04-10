@@ -3,14 +3,13 @@
         <div class="flex items-center justify-between py-4">
             <!-- Logo -->
             <div class="flex items-center">
-                <img src="images/logo.png" alt="leshasLogo" class="h-8 w-auto">
+                <img src="https://th.bing.com/th/id/OIP.RGtGX5-Ymw4z_TDSbS4CswHaHa?rs=1&pid=ImgDetMain" alt="leshasLogo" class="h-20 w-auto">
             </div>
             <!-- Menu items -->
             <div class="hidden md:flex space-x-4">
-                <a href="{{ route('pages.home') }} class="text-black hover:text-cyan-700">Lo Nuevo</a>
-                <a href="#" class="text-black hover:text-cyan-700">Colecciones</a>
-                <a href="#" class="text-black hover:text-cyan-700">Accesorios</a>
-                <a href="#" class="text-cyan-700 hover:text-cyan-500">Rebajas</a>
+                <a href="{{ route('pages.home') }}" class="text-black hover:text-cyan-700" >Lo Nuevo</a>
+                <a href="{{ route('pages.about') }}" class="text-black hover:text-cyan-700">Sobre Nosotros</a>
+                <a href="#" class="text-black hover:text-cyan-700">Fotos</a>
             </div>
             <!-- Icons -->
             <div class="flex space-x-4">
