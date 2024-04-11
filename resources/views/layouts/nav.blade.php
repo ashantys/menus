@@ -7,9 +7,9 @@
             </div>
             <!-- Menu items -->
             <div class="hidden md:flex space-x-4">
-                <a href="{{ route('pages.home') }}" class="text-black hover:text-cyan-700" >Lo Nuevo</a>
-                <a href="{{ route('pages.about') }}" class="text-black hover:text-cyan-700">Sobre Nosotros</a>
-                <a href="#" class="text-black hover:text-cyan-700">Fotos</a>
+                <a href="{{ route('pages.home') }}" class="{{ Request::routeIs('pages.home') ? 'text-cyan-500' : 'text-black' }} hover:text-cyan-500">Lo Nuevo</a>
+                <a href="{{ route('pages.about') }}" class="{{ Request::routeIs('pages.about') ? 'text-cyan-500' : 'text-black' }} hover:text-cyan-500">Nosotros</a>
+                <a href="{{ route('pages.gallery') }}" class="{{ Request::routeIs('pages.gallery') ? 'text-cyan-500' : 'text-black' }} hover:text-cyan-500">Galería</a>                
             </div>
             <!-- Icons -->
             <div class="flex space-x-4">

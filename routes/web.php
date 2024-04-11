@@ -10,3 +10,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('pages.about');
 })->name('pages.about');
+
+Route::get('/gallery', function () {
+    return view('pages.gallery');
+})->name('pages.gallery');
