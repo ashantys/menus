@@ -7,6 +7,10 @@
             <div class="text-xl ">
                 <h2>Esta página se creo con Laravel </h2>
             </div>
+            <div class="text-sm">
+                <p>Hecha por Ashanty Sierra</p>
+                <p>Para la clase Diseño de Aplicaciones Web</p>
+            </div>
         </div>
     </div>
 </footer>
